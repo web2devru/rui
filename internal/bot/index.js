@@ -5,7 +5,7 @@ const TemplateChat = function (customMessage, title, link) {
 ${customMessage}
 // ${title}
 
-Ссылка: ${link}
+Читать: ${link}
 `
 };
 
