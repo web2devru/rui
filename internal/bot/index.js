@@ -3,8 +3,9 @@ const TelegramBot = require('node-telegram-bot-api')
 const TemplateChat = function (customMessage, title, link) {
     return `
 ${customMessage}
-[${title}]
-Link: ${link}
+// ${title}
+
+Ссылка: ${link}
 `
 };
 

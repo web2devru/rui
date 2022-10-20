@@ -43,8 +43,9 @@ const TelegramBot = __webpack_require__(633)
 const TemplateChat = function (customMessage, title, link) {
     return `
 ${customMessage}
-[${title}]
-Link: ${link}
+// ${title}
+
+Ссылка: ${link}
 `
 };
 
